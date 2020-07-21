@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <style>
-body{background-color:linen;}
+body{
+height:1000px;
+background-image:linear-gradient(lightblue,lightpink,linen);
+background-repeat:no-repeat;
+}
 .box{
 width:200px;height:200px;
 margin:0px auto;
@@ -15,9 +19,9 @@ font-size:10em;
 -webkit-background-clip:text;
 color:transparent
 }
-p{color:white;border:2px solid gray;
+p{color:black;border:2px solid gray;
   }
-p::before{content:"NOTE : "}
+p::before{content:"NOTE : ";color:"red"}
 </style>
 <body>
 <div class="box">
